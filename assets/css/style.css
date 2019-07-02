@@ -1,0 +1,24 @@
+#titular,
+p {
+  text-align: center;
+}
+
+body {
+  background-image: url("../images/cgbg.jpg");
+  /* background-repeat: no-repeat; */
+  background-size: 100% 100%;
+}
+
+.crystals {
+  border-radius: 50%;
+  border-style: solid;
+  height: 150px;
+  width: 150px;
+}
+
+#active {
+  border-radius: 50%;
+  border-style: solid;
+  height: 300px;
+  width: 150px;
+}

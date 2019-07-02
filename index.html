@@ -1,31 +1,83 @@
 <!DOCTYPE html>
 
 <html lang="en">
-<head>
-  <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
 
-  <title>Crystal Game</title>
+    <title>Crystal Game</title>
 
-  <link rel="stylesheet" href="css/style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="col"></div>
+      <div class="col 5">
+        <h1 id="titular" class="center-txt">Crystals Collector!</h1>
+      </div>
+      <div class="col"></div>
+    </div>
 
-</head>
-<h1>Crystals Collector!</h1>
+    <div class="container">
+      <p>
+        You will be given a random number at the start of the game.
+      </p>
+    </div>
 
+    <div class="container">
+      <div class="row"></div>
+    </div>
 
-<body>
-
-<p>
-You will be given a random number at the start of the game.
-</p>
-<p>
-
-
-<img src="assets/images/CRYSTAL1.png" alt="CRYSTAL1">                
-<img src="assets/images/CRYSTAL2.png" alt="CRYSTAL2">
-<img src="assets/images/CRYSTAL3.png" alt="CRYSTAL3">
-<img src="assets/images/CRYSTAL4.png" alt="CRYSTAL4">
-</body>
-
-<script src="game.js"></script>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <img
+            id="lblue"
+            class="crystals"
+            src="assets/images/CRYSTAL2.png"
+            alt="CRYSTAL2"
+          />
+        </div>
+        <div class="col">
+          <img
+            id="blue"
+            class="crystals"
+            src="assets/images/CRYSTAL1.png"
+            alt="CRYSTAL1"
+          />
+      </div>
+        <div class="col">
+          <img
+            id="green"
+            class="crystals"
+            src="assets/images/CRYSTAL3.png"
+            alt="CRYSTAL3"
+          />
+        </div>
+        <div class="col">
+          <img
+            id="purp"
+            class="crystals"
+            src="assets/images/CRYSTAL4.png"
+            alt="CRYSTAL4"
+          />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-4"></div>
+        <div id="active" class="card col-4">
+          <p>0</p>
+        </div>
+        <div class="col-4"></div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
+  </body>
 </html>
-
