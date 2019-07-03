@@ -92,11 +92,6 @@ function resetGame() {
   resetCurrNum();
 }
 
-$("#testbutton").click(() => {
-  console.log("clicked");
-  resetGame();
-});
-
 $().ready(() => {
   console.log("docready");
   resetGame();
@@ -105,11 +100,11 @@ $().ready(() => {
 function check() {
   showNum();
   if (currNum > goal) {
-    console.log("you lose");
+    alert("You win!");
     resetGame();
   }
   if (currNum === goal) {
-    console.log("you win");
+    alert("You lose!")
     resetGame();
   }
 }

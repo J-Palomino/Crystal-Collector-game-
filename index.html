@@ -13,9 +13,6 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
-    <div>
-      <button id="testbutton">TEST</button>
-    </div>
     <div class="container">
       <div class="col"></div>
       <div class="col 5">
@@ -71,13 +68,13 @@
         </div>
       </div>
     </div>
-    <div class="container-fluid">
+    <div class="container">
       <div class="row">
-        <div class="col-4"></div>
-        <div id="active" class="card col-4">
-          <p>Your current number is ...<span id="currentNumber"></span></p>
+        <div class="col-3"></div>
+        <div id="active" class="col-6">
+          <badge class="badge badge-primary" >Current Score:<span id="currentNumber" class="badge badge-light"></span></badge>
         </div>
-        <div class="col-4"></div>
+        <div class="col-3"></div>
       </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

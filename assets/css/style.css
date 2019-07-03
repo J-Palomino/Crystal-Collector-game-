@@ -11,14 +11,12 @@ body {
 
 .crystals {
   border-radius: 50%;
-  border-style: solid;
+  border: solid;
   height: 150px;
   width: 150px;
 }
 
-#active {
-  border-radius: 50%;
-  border-style: solid;
-  height: 300px;
-  width: 150px;
+#currentNumber{
+  display: flex;
+  align-items: center;
 }
