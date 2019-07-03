@@ -100,11 +100,11 @@ $().ready(() => {
 function check() {
   showNum();
   if (currNum > goal) {
-    alert("You win!");
+    alert("You Lose!");
     resetGame();
   }
   if (currNum === goal) {
-    alert("You lose!")
+    alert("You Win!")
     resetGame();
   }
 }
