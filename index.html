@@ -13,6 +13,9 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
+    <div>
+      <button id="testbutton">TEST</button>
+    </div>
     <div class="container">
       <div class="col"></div>
       <div class="col 5">
@@ -23,7 +26,7 @@
 
     <div class="container">
       <p>
-        You will be given a random number at the start of the game.
+        Your Random Number is...<span id="randomNumber"></span>
       </p>
     </div>
 
@@ -72,7 +75,7 @@
       <div class="row">
         <div class="col-4"></div>
         <div id="active" class="card col-4">
-          <p>0</p>
+          <p>Your current number is ...<span id="currentNumber"></span></p>
         </div>
         <div class="col-4"></div>
       </div>
