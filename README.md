@@ -1,4 +1,4 @@
-# Crystal-Collector-game-
+# Crystal Collector Game
 
 Crystal Collector is a simple game where the player's goal is to match their score with the goal number.
 
